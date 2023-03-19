@@ -1,0 +1,46 @@
+.post {
+  border: 1px solid #c3aed6;
+  background-color: #f3e5f5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #4527a0;
+}
+
+.post .fecha {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #9c27b0;
+}
+
+.post img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.post p {
+  line-height: 1.5;
+  color: #6a1b9a;
+}
+
+.post .acciones {
+  margin-top: 20px;
+}
+
+.post .acciones a {
+  display: inline-block;
+  background-color: #e0d7e5;
+  border: 1px solid #c3aed6;
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: #4527a0;
+}
+
+.post .acciones a:hover {
+  background-color: #c3aed6;
+  color: #fff;
+}

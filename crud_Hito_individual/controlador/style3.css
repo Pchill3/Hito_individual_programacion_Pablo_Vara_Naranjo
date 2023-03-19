@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #ffd4c4;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #333333;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 1em;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  nav a:hover {
+    color: #ffafaf;
+  }
+  
+  /* Estilos del contenido principal */
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2em;
+  }
+  
+  .language {
+    background-color: #e3e3e3;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 1em;
+    flex-basis: 30%;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333333;
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: #666666;
+  }
+  
+  p {
+    margin-bottom: 0;
+    color: #333333;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #ffd4c4;
+    padding: 1em;
+    text-align: center;
+    color: #333333;
+  }
+  
